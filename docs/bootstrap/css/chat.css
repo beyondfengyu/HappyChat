@@ -1,0 +1,31 @@
+.qqFace{margin-top:4px;background:#fff;padding:2px;border:1px #dfe6f6 solid;}
+.qqFace table td{padding:0px;}
+.qqFace table td img{cursor:pointer;border:1px #fff solid;}
+.qqFace table td img:hover{border:1px #0066cc solid;}
+.top{
+    padding:10px 0;
+    background:transparent;
+    background-color:rgba(0,0,0,0.4);
+}
+#userCount{
+    margin:0 2px;
+    font-weight:bolder;
+    font-size:16px;
+}
+#content{
+    width:100%;
+    height:100%;
+    padding:10px 15px;
+    font-size:16px;
+    overflow: auto;
+}
+.title{
+    padding: 4px 0 0;
+    color: #1259d2;
+    font-weight:bold;
+}
+.item{
+    font-family: "Microsoft YaHei UI";
+    padding:4px 4px 0;
+
+}
