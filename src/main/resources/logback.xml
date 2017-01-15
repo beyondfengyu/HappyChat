@@ -47,20 +47,20 @@
             <level>WARN</level>
         </filter>
     </appender>
-    <!--<appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">-->
-        <!--<Encoding>UTF-8</Encoding>-->
-        <!--<encoder>-->
-            <!--<pattern>${layout_pattern}</pattern>-->
-        <!--</encoder>-->
-        <!--<filter class="ch.qos.logback.classic.filter.ThresholdFilter">-->
-            <!--<level>DEBUG</level>-->
-        <!--</filter>-->
-    <!--</appender>-->
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <Encoding>UTF-8</Encoding>
+        <encoder>
+            <pattern>${layout_pattern}</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>DEBUG</level>
+        </filter>
+    </appender>
 
     <root level="INFO">
         <appender-ref ref="alllog"/>
         <appender-ref ref="errorlog"/>
         <appender-ref ref="warnlog"/>
-        <!--<appender-ref ref="stdout"/>-->
+        <appender-ref ref="stdout"/>
     </root>
 </configuration>
