@@ -4,9 +4,9 @@
     <appender name="alllog" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <Append>true</Append>
         <Encoding>UTF-8</Encoding>
-        <File>/data/java/chat.wolfbe.com.log</File>
+        <File>/data/javalog/chat.wolfbe.com.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>/data/java/chat.wolfbe.com.log.%d{yyyy-MM-dd-HH}</fileNamePattern>
+            <fileNamePattern>/data/javalog/chat.wolfbe.com.log.%d{yyyy-MM-dd}</fileNamePattern>
             <maxHistory>30</maxHistory>
         </rollingPolicy>
         <encoder>
@@ -20,9 +20,9 @@
               class="ch.qos.logback.core.rolling.RollingFileAppender">
         <Append>true</Append>
         <Encoding>UTF-8</Encoding>
-        <File>/data/java/chat.wolfbe.com_error.log</File>
+        <File>/data/javalog/chat.wolfbe.com_error.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>/data/java/chat.wolfbe.com_error.log.%d{yyyy-MM-dd}</fileNamePattern>
+            <fileNamePattern>/data/javalog/chat.wolfbe.com_error.log.%d{yyyy-MM-dd}</fileNamePattern>
             <maxHistory>30</maxHistory>
         </rollingPolicy>
         <encoder>
@@ -35,9 +35,9 @@
     <appender name="warnlog" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <Append>true</Append>
         <Encoding>UTF-8</Encoding>
-        <File>/data/java/chat.wolfbe.com_warn.log</File>
+        <File>/data/javalog/chat.wolfbe.com_warn.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>/data/java/chat.wolfbe.com_warn.log.%d{yyyy-MM-dd}</fileNamePattern>
+            <fileNamePattern>/data/javalog/chat.wolfbe.com_warn.log.%d{yyyy-MM-dd}</fileNamePattern>
             <maxHistory>30</maxHistory>
         </rollingPolicy>
         <encoder>

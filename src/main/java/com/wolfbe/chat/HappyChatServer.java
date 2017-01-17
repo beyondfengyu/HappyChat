@@ -3,7 +3,7 @@ package com.wolfbe.chat;
 import com.wolfbe.chat.handler.MessageHandler;
 import com.wolfbe.chat.handler.UserAuthHandler;
 import com.wolfbe.chat.handler.UserInfoManager;
-import com.wolfbe.chat.server.BaseServer;
+import com.wolfbe.chat.core.BaseServer;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelOption;
 import io.netty.channel.socket.SocketChannel;

@@ -1,4 +1,4 @@
-package com.wolfbe.chat.server;
+package com.wolfbe.chat.core;
 
 /**
  * @author Andy
